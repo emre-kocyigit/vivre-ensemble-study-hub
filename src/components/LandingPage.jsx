@@ -241,6 +241,34 @@ export default function LandingPage({ onStartExam, onStartPractice, onStartRedem
           </div>
         </div>
 
+        {/* ── About ────────────────────────────────────────── */}
+        <div className="bg-white rounded-2xl border border-gray-200 p-5">
+          <h3 className="text-lg font-semibold text-gray-900 mb-2">About This Tool</h3>
+          <p className="text-sm text-gray-600 leading-relaxed mb-4">
+            This tool helps residents prepare for the 24-hour <strong>«&nbsp;Vivre ensemble au Grand-Duché
+            de Luxembourg&nbsp;»</strong> course modules required for Luxembourg nationality. It covers all
+            official curriculum topics with 60+ practice questions, timed simulations, and a smart
+            mistake-tracking system.
+          </p>
+          <ol className="space-y-2">
+            {[
+              { n: 1, label: 'Fundamental Rights', sub: '1848 Constitution · ECHR · Constitutional Court', color: 'bg-blue-500' },
+              { n: 2, label: 'State & Municipal Institutions', sub: 'Grand Duke · 3 branches of power · 1918/19 crisis', color: 'bg-emerald-500' },
+              { n: 3, label: 'History & European Integration', sub: '963 Lucilinburhuc · 1839 independence · Steel · Schengen', color: 'bg-amber-500' },
+            ].map(({ n, label, sub, color }) => (
+              <li key={n} className="flex items-start gap-3">
+                <span className={`${color} text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5`}>
+                  {n}
+                </span>
+                <div>
+                  <span className="text-sm font-semibold text-gray-900">{label}</span>
+                  <span className="text-xs text-gray-400 ml-2">{sub}</span>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+
         {/* ── Curriculum Overview ───────────────────────────── */}
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-3">Curriculum Overview</h3>
