@@ -13,6 +13,39 @@ export default function PrivacyFooter() {
         </p>
       </div>
 
+      {/* Sources */}
+      <div className="flex items-start gap-3 bg-gray-50 rounded-xl px-4 py-3.5">
+        <span className="text-gray-400 text-base flex-shrink-0 mt-0.5">📖</span>
+        <div>
+          <p className="text-xs text-gray-500 leading-relaxed mb-1">
+            <strong className="text-gray-600">Sources &amp; References:</strong>{' '}
+            Based on the official curriculum from the Luxembourg Ministry of Education.
+          </p>
+          <ul className="space-y-0.5">
+            <li>
+              <a
+                href="https://ssl.education.lu/ve-portal/#/home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-blue-500 hover:text-blue-700 hover:underline transition-colors"
+              >
+                Official Vivre Ensemble Portal ↗
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://ssl.education.lu/ve-portal/assets/docs/matieres_en.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-blue-500 hover:text-blue-700 hover:underline transition-colors"
+              >
+                Examination Content PDF ↗
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       {/* Credits */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 px-1">
         <div className="flex flex-col gap-0.5">

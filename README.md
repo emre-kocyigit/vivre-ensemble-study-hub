@@ -119,6 +119,15 @@ npm run preview    # preview the production build locally
 
 ---
 
+## Sources & References
+
+This study hub is based on the official curriculum and documentation from the Luxembourg Ministry of Education:
+
+- [Official Vivre Ensemble Portal](https://ssl.education.lu/ve-portal/#/home)
+- [Examination Content PDF](https://ssl.education.lu/ve-portal/assets/docs/matieres_en.pdf)
+
+---
+
 ## License
 
 MIT — free to use, fork, and improve.
