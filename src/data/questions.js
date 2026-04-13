@@ -197,6 +197,47 @@ export const questions = [
     explanation: "The rule of law means that all state actions, including those of government, must have a legal basis and comply with existing law."
   },
 
+  {
+    id: 61,
+    module: 1,
+    question: "Which 1789 document is considered a key historical source for the concept of Human Rights in Luxembourg?",
+    options: ["The Magna Carta", "The Declaration of the Rights of Man and of the Citizen", "The Bill of Rights", "The Treaty of Versailles"],
+    answer: 1,
+    explanation: "The French Declaration of the Rights of Man and of the Citizen (1789) is a primary historical reference for fundamental rights in Luxembourg."
+  },
+  {
+    id: 62,
+    module: 1,
+    question: "In addition to the Constitution, which European document provides a national reference for rights in the EU?",
+    options: ["The Treaty of Westphalia", "The Charter of Fundamental Rights of the European Union", "The NATO Charter", "The Geneva Convention"],
+    answer: 1,
+    explanation: "The Charter of Fundamental Rights of the European Union (2000) is a core European reference for rights."
+  },
+  {
+    id: 63,
+    module: 1,
+    question: "Which of the following can limit certain fundamental rights like the right to vote in Luxembourg?",
+    options: ["Gender", "Nationality", "Religious belief", "Income level"],
+    answer: 1,
+    explanation: "Certain rights, such as the right to vote in national elections, are limited based on nationality."
+  },
+  {
+    id: 64,
+    module: 1,
+    question: "What is a 'Second-generation' right guaranteed by the community in Luxembourg?",
+    options: ["Freedom of assembly", "Social allowances and services", "Right to a fair trial", "Freedom of the press"],
+    answer: 1,
+    explanation: "Second-generation rights focus on social and economic guarantees, such as services provided by the community."
+  },
+  {
+    id: 65,
+    module: 1,
+    question: "Who is the 'Supranational judge' responsible for the European Union's legal system?",
+    options: ["The Constitutional Court", "The Court of Justice of the European Union", "The District Court", "The International Monetary Fund"],
+    answer: 1,
+    explanation: "The Court of Justice of the European Union (CJEU) acts as the supranational judge for EU-related matters."
+  },
+
   // ─────────────────────────────────────────────────────────────
   // MODULE 2 – State & Municipal Institutions (20 questions)
   // Topics: Role of Grand Duke, 3 branches of power, 1918/19 crisis
@@ -213,9 +254,9 @@ export const questions = [
     id: 22,
     module: 2,
     question: "The current Grand Duke of Luxembourg is:",
-    options: ["Grand Duke Jean", "Grand Duke Henri", "Grand Duke Guillaume", "Grand Duke Adolphe"],
-    answer: 1,
-    explanation: "Grand Duke Henri has been the reigning Grand Duke since 7 October 2000, when he succeeded his father, Grand Duke Jean."
+    options: ["Grand Duke Jean", "Grand Duke Henri", "Grand Duke Guillaume V", "Grand Duke Adolphe"],
+    answer: 2,
+    explanation: "Grand Duke Guillaume V has been the reigning Head of State since 3 October 2025, following the abdication of his father, Grand Duke Henri."
   },
   {
     id: 23,
@@ -400,6 +441,47 @@ export const questions = [
     options: ["Jean-Jacques Rousseau", "Voltaire", "Montesquieu", "John Locke"],
     answer: 2,
     explanation: "Montesquieu formulated the doctrine of separation of powers in his work 'The Spirit of the Laws' (1748), distinguishing legislative, executive, and judicial powers."
+  },
+
+  {
+    id: 66,
+    module: 2,
+    question: "What are the four symbols that define the Luxembourg State?",
+    options: ["Flag, Anthem, Coat of Arms, and National Language", "Territory, Population, Language, and National Symbols", "Grand Duke, Parliament, Courts, and Police", "Euro, Schengen, NATO, and UN"],
+    answer: 1,
+    explanation: "The State is defined by its territory, population, language, and national symbols."
+  },
+  {
+    id: 67,
+    module: 2,
+    question: "In the legislative procedure, what is a 'projet de loi'?",
+    options: ["A bill proposed by a Deputy", "A preliminary draft of law proposed by the Government", "A law already passed by Parliament", "A judicial ruling"],
+    answer: 1,
+    explanation: "A 'projet de loi' is a draft law initiated by the government, whereas a 'proposition de loi' comes from Parliament."
+  },
+  {
+    id: 68,
+    module: 2,
+    question: "Which body handles the 'administrative order' and disputes with state authorities?",
+    options: ["The Supreme Court of Justice", "The Administrative Court and Administrative Tribunal", "The Labour Court", "The Social Court"],
+    answer: 1,
+    explanation: "Administrative justice is handled by the Administrative Court and the Administrative Tribunal."
+  },
+  {
+    id: 69,
+    module: 2,
+    question: "What is the role of the 'professional chambers' in Luxembourg?",
+    options: ["To pass laws", "To act as the main advisory bodies for the state", "To command the military", "To manage the courts"],
+    answer: 1,
+    explanation: "Professional chambers serve as the main advisory bodies to the government."
+  },
+  {
+    id: 70,
+    module: 2,
+    question: "Who is responsible for the interaction between the State and the Municipalities?",
+    options: ["The Grand Duke directly", "The Mayor and Municipal Executives", "The Ministry of Finance", "The State Council"],
+    answer: 1,
+    explanation: "Governance involves constant interaction between the central state and the municipal councils and executives."
   },
 
   // ─────────────────────────────────────────────────────────────
@@ -620,6 +702,46 @@ export const questions = [
     ],
     answer: 1,
     explanation: "The European Court of Justice (ECJ) is based in Luxembourg City. The city also hosts the European Court of Auditors, the General Court, and parts of the European Commission and Council."
+  },
+  {
+    id: 71,
+    module: 3,
+    question: "Luxembourg's status shifted 'from a Duchy to a Grand Duchy' during which period?",
+    options: ["963-1443", "1443-1815", "1839-1867", "1914-1918"],
+    answer: 1,
+    explanation: "Luxembourg evolved from a Duchy into a Grand Duchy between 1443 and 1815."
+  },
+  {
+    id: 72,
+    module: 3,
+    question: "Which plan assisted Luxembourg's reconstruction after 1945?",
+    options: ["The Schuman Plan", "The Marshall Plan", "The Treaty of Rome", "The Benelux Agreement"],
+    answer: 1,
+    explanation: "The Marshall Plan provided essential funding for Luxembourg's reconstruction after WWII."
+  },
+  {
+    id: 73,
+    module: 3,
+    question: "What international organization did Luxembourg join after abandoning its neutrality post-WWII?",
+    options: ["The League of Nations", "NATO (North Atlantic Treaty Organization)", "The Warsaw Pact", "The Commonwealth"],
+    answer: 1,
+    explanation: "After 1945, Luxembourg abandoned neutrality to join international integrations like NATO and the UN."
+  },
+  {
+    id: 74,
+    module: 3,
+    question: "Luxembourg's shift from an industrial society to a services-based society was triggered by:",
+    options: ["The Agricultural Revolution", "The Steel Crisis", "The discovery of oil", "The end of the monarchy"],
+    answer: 1,
+    explanation: "The steel crisis led Luxembourg to transition toward a services and knowledge-based society."
+  },
+  {
+    id: 75,
+    module: 3,
+    question: "Which European treaty established the 'Common Currency' (Euro)?",
+    options: ["The Treaty of Paris", "The Treaty of Maastricht", "The Treaty of Amsterdam", "The Treaty of Lisbon"],
+    answer: 1,
+    explanation: "The Treaty of Maastricht was the key step in establishing the common currency."
   }
 ];
 
