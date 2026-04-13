@@ -382,10 +382,10 @@ export const questions = [
   {
     id: 35,
     module: 2,
-    question: "How many communes (municipalities) does Luxembourg currently have (approx.)?",
-    options: ["48", "102", "116", "243"],
-    answer: 1,
-    explanation: "Following mergers, Luxembourg now has approximately 102 communes (the number has been reduced through mergers over the years)."
+    question: "How many communes (municipalities) are there currently in Luxembourg?",
+    options: ["100", "102", "105", "116"],
+    answer: 0,
+    explanation: "As of 2026, Luxembourg is divided into exactly 100 communes."
   },
   {
     id: 36,
